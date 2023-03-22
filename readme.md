@@ -1,14 +1,23 @@
-Step to run application:<br>
-Step 1: Create the copy of the project.<br>
-Step 2: Open command prompt and change your current path<br>
-to folder where you can find app.py file.<br>
-Step 3: Create environment by command given below-<br>
-conda create -name &lt;environment name&gt;<br>
-Step 4: Activate environment by command as follows-<br>
-conda activate &lt;environment name&gt;<br>
-Step 5: Use command below to install required dependencies-<br>
-python -m pip install -r requirements.txt<br>
-Step 6: Run application by command;<br>
-python app.py<br>
-You will get url copy it and paste in browser.<br>
-Step 7: You have sample_data folder where you can get images to test.</p>
+1.  Clone the project to your local machine.
+
+2.  Open the command prompt and navigate to the folder where you have saved the project.
+
+3.  Create a new environment using the following command:
+
+    `conda create -name <environment_name>`
+
+4.  Activate the environment using the following command:
+
+    `conda activate <environment_name> `
+
+5.  Install the required dependencies using the following command:
+
+    `python -m pip install -r requirements.txt`
+
+6.  Run the application using the following command:
+
+    `python app.py`
+
+7.  You can find sample dog images in the `sample_data` folder to test the application.
+
+Happy predicting!
